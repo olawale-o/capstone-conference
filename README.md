@@ -7,6 +7,10 @@ Mobile Version
 
 ![mobile-vesion](https://github.com/olawale-o/portfolio-mobile-version/blob/main/assets/mobile-screenshot.png?raw=true")
 
+Desktop Version
+![desktop-vesion](https://github.com/olawale-o/portfolio-mobile-version/blob/main/assets/desktop-screenshot.png?raw=true")
+
+
 # Built With
 - HTML
 - CSS
@@ -44,3 +48,4 @@ Give a :star: if you like this project!
 
 - A special thanks to [Cindy Shin](https://www.behance.net/adagio07) whose design template was used
 - Microverse
+- A special thanks to my microverse mentor [TedLivist](https://github.com/TedLivist)
