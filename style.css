@@ -131,6 +131,14 @@ li {
   color: var(--first-color);
 }
 
+.nav-link:active {
+  color: var(--second-color);
+}
+
+.nav-link:hover {
+  text-decoration: underline var(--second-color);
+}
+
 .active .icon .hamburger {
   display: none;
   visibility: hidden;
@@ -493,5 +501,192 @@ li {
   .program-list-item-container__text {
     font-size: 0.85rem;
     line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .logo {
+    display: block;
+    visibility: visible;
+  }
+
+  .icon {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 5rem;
+    height: 4rem;
+  }
+
+  .nav-list {
+    position: relative;
+    visibility: visible;
+    height: initial;
+    z-index: 0;
+    transform: translateX(0);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: none;
+    padding: 0;
+    transition: none;
+  }
+
+  .nav-item {
+    margin: 0 1rem 0 0;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    color: var(--first-color);
+    font-weight: 700;
+  }
+
+  .nav-link:active {
+    color: var(--second-color);
+  }
+
+  .nav-link:hover {
+    text-decoration: underline var(--second-color);
+  }
+
+  .hero-container {
+    padding-top: 10rem;
+  }
+
+  .hero-content,
+  .hero-about-content,
+  .program,
+  .speakers,
+  .partner {
+    width: 80%;
+  }
+
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-list-item {
+    width: 70%;
+  }
+
+  .program-list-item-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.75rem;
+  }
+
+  .program-list-item-container__title {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .program-list-item-container__text {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .partners-list {
+    justify-content: space-between;
+  }
+
+  .hero-about-content-contact {
+    width: 90%;
+  }
+
+  .summits-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .summits-list-item {
+    margin-right: 1.5rem;
+  }
+
+  .summits-list-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .nav {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .hero-content,
+  .program,
+  .speakers,
+  .partner,
+  .footer,
+  .hero-about-content {
+    width: 80%;
+  }
+
+  .hero-content__heading,
+  .hero-about-content__heading {
+    width: 70%;
+    letter-spacing: 10px;
+  }
+
+  .hero-content__desc {
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .hero-about-content__heading {
+    margin: 0 auto 2.5rem;
+  }
+
+  .speakers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .speakers-list-item__role {
+    font-size: 1rem;
+  }
+
+  .footer {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .program-list-item {
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.25rem;
+    border: 1px solid transparent;
+    transition: border 0.5s ease-in-out;
+  }
+
+  .program-list-item:hover {
+    border-color: #fff;
+  }
+
+  .program-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .program-list-item-container {
+    font-size: 0.9rem;
+  }
+
+  .program-list-item-container__text {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .speakers-list-item__text {
+    font-size: 1rem;
   }
 }
