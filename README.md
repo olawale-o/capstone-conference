@@ -3,12 +3,16 @@
 >  This is a capstone project for a conference submit!
  Both mobile and desktop version was designed for this project
 
+Mobile Version
+
+![mobile-vesion](https://github.com/olawale-o/portfolio-mobile-version/blob/main/assets/mobile-screenshot.png?raw=true")
+
 # Built With
 - HTML
 - CSS
 
 # Live Demo
-Visit this [link](https://olawale-o.github.io/portfolio-mobile-version/) for the demo
+Visit this [link](https://olawale-o.github.io/capstone-conference/) for the demo
 
 # Getting started
 
