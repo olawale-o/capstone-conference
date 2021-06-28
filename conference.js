@@ -14,57 +14,6 @@ closeIcon.addEventListener('click', () => {
   body.classList.remove('active');
 });
 
-const speakers = [
-  {
-    speakerName: 'Teddy Livist',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_one.jpg',
-  },
-  {
-    speakerName: 'Adonike Sly',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_three.jpg',
-  },
-  {
-    speakerName: 'Hiro Mataba',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_four.jpg',
-  },
-  {
-    speakerName: 'Calvince Otieno',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_one.jpg',
-  },
-  {
-    speakerName: 'Arturo Ortega',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_three.jpg',
-  },
-  {
-    speakerName: 'Damilare Akintoye',
-    role: 'Director of art center',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-    + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-    + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
-    photoUrl: 'assets/speaker_four.jpg',
-  },
-];
-
 const createSpeaker = (speaker) => {
   const li = document.createElement('li');
   li.setAttribute('class', 'speakers-list-item');
@@ -91,7 +40,59 @@ const createSpeaker = (speaker) => {
   return li;
 };
 
-for (let i = 0; i < speakers.length; i += 1) {
-  const speakerItem = createSpeaker(speakers[i]);
-  speakerList.appendChild(speakerItem);
+if (speakerList) {
+  const speakers = [
+    {
+      speakerName: 'Teddy Livist',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_one.jpg',
+    },
+    {
+      speakerName: 'Adonike Sly',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_three.jpg',
+    },
+    {
+      speakerName: 'Hiro Mataba',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_four.jpg',
+    },
+    {
+      speakerName: 'Calvince Otieno',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_one.jpg',
+    },
+    {
+      speakerName: 'Arturo Ortega',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_three.jpg',
+    },
+    {
+      speakerName: 'Damilare Akintoye',
+      role: 'Director of art center',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
+      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
+      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      photoUrl: 'assets/speaker_four.jpg',
+    },
+  ];
+  for (let i = 0; i < speakers.length; i += 1) {
+    const speakerItem = createSpeaker(speakers[i]);
+    speakerList.appendChild(speakerItem);
+  }
 }
