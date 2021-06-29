@@ -185,7 +185,6 @@ li {
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   background: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
