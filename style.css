@@ -39,7 +39,7 @@ li {
 }
 
 .btn {
-  color: var(--third-color);
+  color: #fff;
   font-size: 0.8rem;
   outline: none;
   border: none;
@@ -104,6 +104,11 @@ li {
 }
 
 .icon .close {
+  display: none;
+  visibility: hidden;
+}
+
+.top-nav {
   display: none;
   visibility: hidden;
 }
@@ -173,7 +178,7 @@ li {
 
 .hero-content__heading,
 .hero-about-content__heading {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: var(--second-color);
   font-weight: 700;
   letter-spacing: 0.1rem;
@@ -237,6 +242,7 @@ li {
   margin-bottom: 2rem;
   width: 100%;
   cursor: pointer;
+  border: 1px solid #fff;
 }
 
 .program-list-item-container {
@@ -486,6 +492,15 @@ li {
 }
 
 @media screen and (min-width: 400px) {
+  .hero-content__heading,
+  .hero-about-content__heading {
+    font-size: 2.2rem;
+  }
+
+  .program-list-item {
+    padding: 0.5rem;
+  }
+
   .program-list-item-container {
     grid-column-gap: 0.75rem;
   }
@@ -499,8 +514,8 @@ li {
   }
 
   .program-list-item-container__text {
-    font-size: 0.85rem;
-    line-height: 1.8;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
 
@@ -518,8 +533,32 @@ li {
   .nav {
     display: flex;
     align-items: center;
-    padding: 1.2rem 5rem;
-    height: 4rem;
+    padding: 1.5rem 5rem;
+    height: 4.5rem;
+  }
+
+  .top-nav {
+    display: flex;
+    background-color: var(--first-color);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    visibility: visible;
+  }
+
+  .top-nav__item {
+    margin-right: 1rem;
+  }
+
+  .top-nav__link {
+    color: var(--third-color);
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 
   .nav-list {
@@ -616,6 +655,11 @@ li {
 
 @media screen and (min-width: 991px) {
   .nav {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .top-nav {
     padding-left: 8rem;
     padding-right: 8rem;
   }
