@@ -1,14 +1,14 @@
 # Capstone Conference Project
 
->  This is a capstone project for a conference submit!
+>  This is a capstone project for a conference summit!
  Both mobile and desktop version was designed for this project
 
-Mobile Version
+Mobile Version Screenshot
 
-![mobile-vesion](https://github.com/olawale-o/portfolio-mobile-version/blob/main/assets/mobile-screenshot.png?raw=true")
+![mobile-vesion](https://github.com/olawale-o/capstone-conference/blob/about-home-mobile-version/assets/mobile-screenshot.png?raw=true)
 
-Desktop Version
-![desktop-vesion](https://github.com/olawale-o/portfolio-mobile-version/blob/main/assets/desktop-screenshot.png?raw=true")
+Desktop Version Screenshot
+![desktop-vesion](https://github.com/olawale-o/capstone-conference/blob/about-home-mobile-version/assets/desktop-screenshot.png?raw=true)
 
 
 # Built With
