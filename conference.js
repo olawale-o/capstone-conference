@@ -45,49 +45,37 @@ if (speakerList) {
     {
       speakerName: 'Teddy Livist',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_one.jpg',
     },
     {
       speakerName: 'Adonike Sly',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_three.jpg',
     },
     {
       speakerName: 'Hiro Mataba',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_four.jpg',
     },
     {
       speakerName: 'Calvince Otieno',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_one.jpg',
     },
     {
       speakerName: 'Arturo Ortega',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_three.jpg',
     },
     {
       speakerName: 'Damilare Akintoye',
       role: 'Director of art center',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,'
-      + 'illum, sed accusamus maiores placeat sit molestiae commodi deserunt'
-      + 'eos recusandae quam laboriosam adipisci natus laudantium impedit quis?',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolor unde, consectetur,',
       photoUrl: 'assets/speaker_four.jpg',
     },
   ];
