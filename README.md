@@ -14,6 +14,7 @@ Desktop Version Screenshot
 # Built With
 - HTML
 - CSS
+- JAVASCRIPT
 
 # Live Demo
 Visit this [link](https://olawale-o.github.io/capstone-conference/) for the demo
