@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
+@font-face {
+  font-family: cocogoose;
+  src: url("fonts/COCOGOOSE/Cocogoose_trial.ttf");
+}
+
 :root {
   --first-color: #272a31;
   --second-color: #ec5242;
@@ -18,12 +23,13 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', cocogoose, sans-serif;
   font-size: 10px;
 }
 
 a {
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 li {
@@ -162,8 +168,10 @@ li {
 .hero-container {
   padding: 5rem 0;
   background: var(--third-color);
-  background-size: cover;
   position: relative;
+  background-image: url("assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero-content,
@@ -174,17 +182,18 @@ li {
 
 .hero-content__text,
 .hero-about-content__text {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
   color: var(--second-color);
+  margin-bottom: 1rem;
 }
 
 .hero-content__heading,
 .hero-about-content__heading {
+  font-family: cocogoose, sans-serif;
   font-size: 1.5rem;
-  color: var(--second-color);
   color: transparent;
   font-weight: 700;
-  letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   background: linear-gradient(rgb(241, 42, 42), rgb(104, 4, 4));
   -webkit-background-clip: text;
@@ -514,7 +523,7 @@ li {
 @media screen and (min-width: 400px) {
   .hero-content__heading,
   .hero-about-content__heading {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .program-list-item {
@@ -614,7 +623,13 @@ li {
     text-decoration: underline var(--second-color);
   }
 
+  .hero-content__heading,
+  .hero-about-content__heading {
+    font-size: 3rem;
+  }
+
   .hero-container {
+    background-size: cover;
     padding-top: 10rem;
   }
 
@@ -634,7 +649,7 @@ li {
   }
 
   .program-list-item {
-    width: 70%;
+    width: 100%;
   }
 
   .program-list-item-container {
@@ -700,12 +715,12 @@ li {
 
   .hero-content__heading,
   .hero-about-content__heading {
-    width: 70%;
-    letter-spacing: 10px;
+    width: 80%;
+    font-size: 3.2rem;
   }
 
   .hero-content__desc {
-    width: 50%;
+    width: 70%;
     font-size: 1rem;
   }
 
@@ -733,6 +748,16 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
+  .hero-content__heading,
+  .hero-about-content__heading {
+    font-size: 3.8rem;
+    word-spacing: 10px;
+  }
+
+  .hero-content__desc {
+    width: 55%;
+  }
+
   .program-list-item {
     padding: 0.5rem;
     margin-bottom: 1.5rem;
