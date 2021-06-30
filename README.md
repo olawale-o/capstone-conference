@@ -18,6 +18,9 @@ Desktop Version Screenshot
 # Live Demo
 Visit this [link](https://olawale-o.github.io/capstone-conference/) for the demo
 
+# Loom Video
+Wtach this [video]()
+
 # Getting started
 
 ## To get a local copy of this repository kindly follow the steps below.

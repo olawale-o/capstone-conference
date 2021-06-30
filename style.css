@@ -162,6 +162,8 @@ li {
 .hero-container {
   padding: 5rem 0;
   background: var(--third-color);
+  background-size: cover;
+  position: relative;
 }
 
 .hero-content,
@@ -243,6 +245,7 @@ li {
 .program-list-item {
   opacity: 0.8;
   margin-bottom: 2rem;
+  padding: 0.7rem 0;
   width: 100%;
   cursor: pointer;
   background-color: #3c3f46;
@@ -515,6 +518,7 @@ li {
   }
 
   .program-list-item {
+    margin-bottom: 2rem;
     padding: 0.5rem;
   }
 
