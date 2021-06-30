@@ -1,6 +1,6 @@
 # Capstone Conference Project
 
->  This is a capstone project for a conference summit!
+>  This is a capstone project for a conference summit in Nigeria! that follows the design guidelines found [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
  Both mobile and desktop version was designed for this project
 
 Mobile Version Screenshot
@@ -19,7 +19,7 @@ Desktop Version Screenshot
 Visit this [link](https://olawale-o.github.io/capstone-conference/) for the demo
 
 # Loom Video
-Wtach this [video]()
+Watch this [video](https://www.loom.com/share/9c9cd816d64c40959fb1a34df0f4a60e)
 
 # Getting started
 
