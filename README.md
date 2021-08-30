@@ -38,7 +38,7 @@ Watch this [video](https://www.loom.com/share/9c9cd816d64c40959fb1a34df0f4a60e)
 
 - Github: [Github](https://github.com/olawale-o)
 - Twitter: [Twitter](https://twitter.com/ibreaktherules)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olawale-omoogun-330a051b1/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olawaleomoogun/)
 
 # Contributing
 Contributions, issues, and feature requests are welcome!
